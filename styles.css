@@ -1,0 +1,25 @@
+.head{
+    text-align: center;
+}
+.main{
+    margin: auto;
+    display: table;
+    padding-top: 20px;
+}
+.far{
+    cursor: pointer;
+}
+td{
+    padding-right: 20px;
+}
+p{
+    color: rgb(18, 84, 182);
+    font-size: larger;
+}
+td .button{
+    padding-right: 0px ;
+    margin : 0px;
+}
+h1{
+    color: rgb(238, 5, 5);
+}

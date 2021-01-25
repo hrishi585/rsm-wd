@@ -3,16 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Radio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 </head>
 <body>
-    <ul type="none">
-        <h4>What needs to get done?</h4>
-        <li><input type="radio" name="aa">eat<img src="./trash-fill.svg" alt=""></li>
-        <li><input type="radio" name="aa">sleep<img src="./trash-fill.svg" alt=""></li>
-        <li><input type="radio" name="aa">drink water<img src="./trash-fill.svg" alt=""></li>
-        <li><input type="radio" name="aa">go on a run<img src="./trash-fill.svg" alt=""></li>
-    </ul>
-    <p>4 items</p>
+    <div class="head">
+        <h1>What needs to be get done?</h1>
+        <div class="main">
+            <table>
+                <tr>
+                    <td class="button"><input type="radio" name="but"></td>
+                    <td><p>Eat</p></td>
+                    <td><i class="far fa-trash-alt"></i></td>
+                </tr>
+                <tr>
+                    <td class="button"><input type="radio" name="but"></td>
+                    <td><p>Sleep</p></td>
+                    <td><i class="far fa-trash-alt"></i></td>
+                </tr>
+                <tr>
+                    <td class="button"><input type="radio" name="but"></td>
+                    <td><p>Drink water</p></td>
+                    <td><i class="far fa-trash-alt"></i></td>
+                </tr>
+                <tr>
+                    <td class="button"><input type="radio" name="but"></td>
+                    <td><p>Go on a run</p></td>
+                    <td><i class="far fa-trash-alt"></i></td>
+                </tr>
+                <tr>
+                    <td><p>4 items</p></td>
+                </tr>
+            </table>
+        </div>
+    </div>
 </body>
 </html>
