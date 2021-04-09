@@ -4,57 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
+    <div class="main">
+        <h1>REGISTRATION FORM</h1>
         <form>
-           <table>
-               <tr>
-                   <td>Full Name</td>
-                   <td><input type="text" name="name" id=""></td>
-               </tr>
-               <tr>
-                   <td>Email id</td>
-                   <td><input type="email" name="email" id=""></td>
-               </tr>
-               <tr>
-                   <td>Phone number</td>
-                   <td><input type="text" name="phn" id=""></td>
-               </tr>
-               <tr>
-                   <td>Gender</td>
-                   <td>
-                        <input type="radio" name="gender" id="">Male
-                        <input type="radio" name="gender" id="">Female
-                        <input type="radio" name="gender" id="">Other
-                    </td>
-               </tr>
-               <tr>
-                   <td>Date of Birth</td>
-                   <td><input type="date" name="dob" id=""></td>
-               </tr>
-               <tr>
-                   <td>Department</td>
-                   <td>
-                       <select name="dept" id="">
-                            <option value="">CSE</option>
-                            <option value="">ECE</option>
-                            <option value="">EEE</option>
-                            <option value="">IT</option>
-                       </select>
-                    </td>
-               </tr>
-               <tr>
-                   <td>Upload image</td>
-                   <td><input type="file" name="image" id=""></td>
-               </tr>
-               <tr>
-                   <td><input type="submit" value="Submit"></td>
-               </tr>
-               <tr>
-                   <td></td>
-               </tr>
-           </table>
+           <input type="text" name="name" required placeholder="Enter your name" id="">
+           <br>
+           <input type="text" name="phone" placeholder="Enter your phone number" id="">
+           <br>
+           <input type="email" name="email" required placeholder="Enter mail ID" id="">
+           <br>
+           <input type="password" placeholder="Enter password" required name="password" id="">
+           <br>
+           <input id="btn" type="submit" value="SUBMIT">
+           <br>
+           <p>Account already exists?<a href="#">Log in</a></p>
         </form>
     </div>
 </body>

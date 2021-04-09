@@ -1,25 +1,26 @@
-.head{
-    text-align: center;
+body{
+    background-color: rgb(196, 192, 192);
+    margin: 50px 450px;
 }
 .main{
-    margin: auto;
-    display: table;
-    padding-top: 20px;
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.far{
-    cursor: pointer;
+.main form input{
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border-style: solid;
 }
-td{
-    padding-right: 20px;
+.main h1{
+    font-family: 'Roboto Condensed';
 }
-p{
-    color: rgb(18, 84, 182);
-    font-size: larger;
-}
-td .button{
-    padding-right: 0px ;
-    margin : 0px;
-}
-h1{
-    color: rgb(238, 5, 5);
+#btn{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: darkorange;
+    background-color: darkorange;
 }
